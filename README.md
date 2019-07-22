@@ -26,5 +26,5 @@ The back-end part is developed based by node js framework. Server side programmi
 
 To create the mysql from csv database "createDB.sql" from "data" folder could be used.
 After installing all requiremnts, the main program should be run by the following command from the node.js folder:
-- **node recommendedFolder/app.js**
-The default address for the nodejs server is "localhost:3000/recommendedFolder".
+- **node recommendedFoods/app.js**
+The default address for the nodejs server is "localhost:3000/recommendedFoods".
