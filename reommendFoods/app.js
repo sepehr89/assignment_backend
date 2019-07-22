@@ -15,7 +15,7 @@ con.connect(function(err) {
 var url = require('url');
 // Create an instance of the http server to handle HTTP requests
 let app = http.createServer((req, res) => {  
-    // Set a response type of plain text for the response
+    // Set a response type of application/json for the response
     res.writeHead(200, {'Content-Type': 'application/json'});
 
     var q = url.parse(req.url, true).query;
